@@ -1,0 +1,9 @@
+{
+	"name": "DataFactoryERV",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9bac10be-789b-4a41-bf45-890e7001bbfd",
+		"tenantId": "1503e440-e394-4f7d-85e4-1f0eeeb700f6"
+	}
+}
