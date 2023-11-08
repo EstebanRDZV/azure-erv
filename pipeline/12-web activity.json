@@ -1,0 +1,25 @@
+{
+	"name": "12-web activity",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web_activity",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://datalakerove.blob.core.windows.net/parquet/log.parquet",
+					"method": "GET"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
